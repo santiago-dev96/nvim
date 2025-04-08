@@ -3,6 +3,9 @@ vim.o.sw = 4
 vim.o.tabstop = 4
 vim.o.expandtab = false
 
+-- no wrap
+vim.o.wrap = false
+
 -- leader key
 vim.g.mapleader = ' '
 
