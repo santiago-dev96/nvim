@@ -9,7 +9,6 @@ vim.g.mapleader = ' '
 -- alternate file jumping
 vim.keymap.set('n', '<leader><leader>', '<cmd>e#<cr>')
 
-
 -- folding
 vim.o.foldmethod = 'expr'
 vim.o.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
@@ -23,3 +22,6 @@ vim.o.relativenumber = true
 
 -- package manager
 require'config.lazy'
+
+-- colorscheme
+vim.cmd'colorscheme carbonfox'
