@@ -22,6 +22,3 @@ vim.o.relativenumber = true
 
 -- package manager
 require'config.lazy'
-
--- colorscheme
-vim.cmd'colorscheme carbonfox'
